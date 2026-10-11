@@ -1,0 +1,26 @@
+
+# Titkos adatbázis-kapcsolat
+db.php
+
+# Helyi konfigurációs és környezeti fájlok
+.env
+.env.*
+!.env.example
+
+# Ideiglenes fájlok
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Szerkesztő és operációs rendszer
+.vscode/
+.idea/
+
+
+# Helyi adatbázis és személyes adatok
+/adatbazis.sql
+/profilkepek/
+
+# Helyi feltöltések, ha személyes adatot tartalmaznak
+/hirek_kepek/
